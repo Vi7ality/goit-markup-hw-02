@@ -153,10 +153,14 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
 /* Team */
+.team-section {
+    background-color: #F5F4FA;
+}
+
 .our-team .name {
     color: var(--tittle-text-color);
     
@@ -226,6 +230,8 @@ footer {
     font-size: 16px;
     line-height: 1.63;
     border: none;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .project-nav .filter:hover, .project-nav .filter:focus {
     background-color: var(--accent-text-color);
